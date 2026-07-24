@@ -1,5 +1,7 @@
 # GridUAV — Neural Grid Code for UAV 3D Self Localization
 
+Proposed Logic Flow: https://canva.link/9hw7rvlky5lzu6v
+
 ## ⚠️ Active Research Repository
 
 This repository is under active development. Code and structure will evolve as the project progresses.
