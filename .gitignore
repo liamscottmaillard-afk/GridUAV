@@ -1,6 +1,8 @@
 # Data and trained models (excluded from git, stored separately)
-Data/
-Results/
+Data/*
+!Data/.gitkeep
+Results/*
+!Results/.gitkeep
  
 # Webots
 *.wbproj

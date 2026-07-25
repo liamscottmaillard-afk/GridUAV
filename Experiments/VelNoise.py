@@ -23,6 +23,7 @@ class VelNoise_Experiment():
 
 		self.exp_label = 'VelNoise'
 		self.current_exp = 1
+		self.experiment_completed = False
 
 		self.trials_per_setting = int(parameters.get('Experiment', 'trials_per_setting'))
 		self.sim_time = int(parameters.get('Experiment', 'sim_time'))
@@ -48,7 +49,8 @@ class VelNoise_Experiment():
 		# Do stuffs
 
 		# Finish and save
-		save_experiment_data(GridUAV_path, self.exp_label)
+		if self.experiment_completed:
+			save_experiment_data(GridUAV_path, self.exp_label)
 
 
 
