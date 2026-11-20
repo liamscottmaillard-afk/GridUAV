@@ -1,6 +1,6 @@
 @echo off
 REM Activate the conda environment
-call conda activate griduav
+call conda activate griduav #Liam : This assumes Anaconda is installed. A more general command might be call griduav\Scripts\activate
 
 REM Check if Webots is already running
 tasklist /FI "IMAGENAME eq webots.exe" 2>NUL | find /I "webots.exe" >NUL
