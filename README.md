@@ -52,6 +52,8 @@ GridUAV/
 
 ## 🔽 Setup
 
+NOTE (Liam) : The bash scripts, written as they are at the moment, assume an Anaconda python installation. Having had problems with Anaconda in the past, I'll modify them so it is no longer necessary.
+
 ### 1. Install Webots
 
 This project uses Webots, an open source 3D robot simulator, to simulate the Crazyflie quadrotor and its environment.
@@ -70,6 +72,8 @@ setx GRIDUAV "C:\Users\...\Repositories\GridUAV"
 ```
 
 ### 3. Create the Conda Environment
+
+NOTE (Liam) : I have just updated the repository so this step is no longer be necessary. Just make sure Python 3.12.7 is installed on your machine to avoid potential (though unlikely) compatibility issues. If you want to make any changes to the environment in the Command line (ex: installing python packges), make sure to activate it first (C:\Users\...\Repositories\GridUAV\Scripts\activate).
 
 ```bash
 conda create -n griduav python=3.12.7
