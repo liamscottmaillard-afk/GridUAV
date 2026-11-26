@@ -73,7 +73,7 @@ setx GRIDUAV "C:\Users\...\Repositories\GridUAV"
 
 ### 3. Create the Conda Environment
 
-NOTE (Liam) : I have just updated the repository so this step is no longer be necessary. Just make sure Python 3.12.7 is installed on your machine to avoid potential (though unlikely) compatibility issues. If you want to make any changes to the environment in the Command line (ex: installing python packges), make sure to activate it first (C:\Users\...\Repositories\GridUAV\Scripts\activate).
+NOTE (Liam) : I have just updated the repository so this step is no longer be necessary. Just make sure Python 3.12.7 is installed on your machine to avoid potential (though unlikely) compatibility issues. If you want to make any changes to the environment in the Command line (ex: installing python packges), make sure to activate it first (C:\Users\...\GitHub\GridUAV\Scripts\activate).
 
 ```bash
 conda create -n griduav python=3.12.7
